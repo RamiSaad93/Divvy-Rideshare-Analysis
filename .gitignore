@@ -1,0 +1,29 @@
+# Python virtual environment
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Cache files
+.cache.sqlite
+**/.cache.sqlite
+__pycache__/
+*.py[cod]
+
+# Local environment variables / credentials
+.env
+
+# Local raw and processed data
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# Old/local CSV storage
+CSV Files/
+
+# OS files
+.DS_Store
+Thumbs.db
